@@ -92,6 +92,17 @@ h2 {
 .user-block:hover img {
 	opacity: 1;
 }
+
+.active::after {
+	content: '';
+	background: #fff;
+	height: 2px;
+	width: 100%;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: -25px;
+}
+
 .main-logo {
 	display: flex;
 	justify-content: center;
