@@ -21,6 +21,8 @@ h2 {
 .main-index {
 	width: 940px;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .main-header {
@@ -113,4 +115,10 @@ h2 {
 	background-color: #fff;
 	transform: rotate(-45deg);
 	margin: 15px;
+}
+
+.main-news-photo {
+	width: 940px;
+	min-height: 419px;
+	
 }
