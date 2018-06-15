@@ -195,8 +195,21 @@ h2 {
 	padding-left: 2px;
 }
 .gallery {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 .gallery-content {
+	display: flex;
 	border: 7px solid #fff;
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+.buttons .btn {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	width: 47%;
+	text-align: center;
 }
