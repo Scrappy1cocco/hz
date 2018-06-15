@@ -55,6 +55,7 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 26px 20px;
+	box-sizing: border-box;
 
 }
 .menu a:hover {
@@ -67,6 +68,7 @@ h2 {
 	flex-wrap: nowrap;
 	width: 107px;
 	justify-content: center;
+	box-sizing: border-box;
 }
 .user-block a {
 	text-decoration: none;
@@ -99,8 +101,8 @@ h2 {
 	height: 2px;
 	width: 100%;
 	display: block;
-	margin-top: 25px;
-	margin-bottom: -25px;
+	margin-top: 26px;
+	margin-bottom: -26px;
 }
 
 .main-logo {
@@ -136,6 +138,7 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 20px;
+	padding-bottom: 0;
 }
 .diamond {
 	width: 20px;
@@ -148,6 +151,52 @@ h2 {
 .main-news-photo {
 	width: 940px;
 	min-height: 419px;
+	padding: 47px 80px;
+	margin-top: 85px;
 	background-color: #f7f4f1;
 	color: #000;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+.news-title {
+	font-size: 30px;
+	line-height: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 22px; 
+}
+.news-preview {
+	margin-bottom: 35px;
+}
+.news-preview p {
+	width: 350px;
+	min-height: 96px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.news-preview time {
+	text-transform: none;
+}
+
+.btn {
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 13px 34px;
+}
+
+.main-photo .news-title {
+	padding-left: 2px;
+}
+.gallery {
+	margin-bottom: 50px;
+}
+.gallery-content {
+	border: 7px solid #fff;
 }
