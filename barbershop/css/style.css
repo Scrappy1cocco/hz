@@ -252,3 +252,63 @@ h2 {
 .main-contacts .buttons .btn:last-child {
 	padding: 10px 25px;
 }
+
+.main-form {
+	width: 300px;
+}
+
+.main-form form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-form input {
+	width: 140px;
+	height: 43px;
+	font-size: 14px;
+	line-height: 24px;
+	padding: 10px 15px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	margin-bottom: 9px;
+}
+
+.main-form p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 1px;
+	margin-bottom: 12px;
+}
+
+.main-form label {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 17px;
+	margin-bottom: 7px;
+}
+
+.main-form .left {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-form .right {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.main-form .right input:last-child {
+	padding: 10px 13px;
+	margin-bottom: 20px;
+}
+
+.main-form .btn {
+	width: 300px;
+	height: 43px;
+	margin-bottom: 0;
+}

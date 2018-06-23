@@ -97,11 +97,19 @@
               <h2 class="content-column-title">Записаться</h2>
               <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
               <form action="/echo" method="post">
-                <input type="date" name="date" value="" placeholder="Дата">
-                <input type="time" name="time" value="" placeholder="Время">
-                <input type="text" name="name" value="" placeholder="Ваше имя">
-                <input type="tel" name="phone" value="" placeholder="Телефон">
-                <input type="submit" class="btn" value="Отправить">
+                <div class="left">
+                  <label for="date">Дата</label>
+                  <input type="text" id="date" name="date" placeholder="08.10.2017">
+                  <label for="name">Ваше имя</label>
+                  <input type="text" id="name" name="name" placeholder="Борода">
+                </div>
+                <div class="right">
+                  <label for="time">Время</label>
+                  <input type="text" id="time" name="time" placeholder="10:00">
+                  <label for="phone">Телефон</label>
+                  <input type="text" id="phone" name="phone" placeholder="+7 123 456-78-90">
+                </div>
+                  <input type="submit" class="btn" value="Отправить">
               </form>
           </div>
         </div>
