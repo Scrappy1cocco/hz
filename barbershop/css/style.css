@@ -317,6 +317,7 @@ h2 {
 
 .main-footer {
 	min-height: 193px;
+	min-width: 100%;
 	width: 100%;
 	margin: 0 auto;
 	display: flex;
@@ -324,7 +325,7 @@ h2 {
 	background-color: #242424;
 }
 .footer-block {
-	width: 940px;
+	min-width: 940px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
