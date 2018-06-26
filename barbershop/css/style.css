@@ -265,6 +265,7 @@ h2 {
 }
 
 .main-form input {
+	font-family: 'PT Sans Narrow', sans-serif;
 	width: 140px;
 	height: 43px;
 	font-size: 14px;
