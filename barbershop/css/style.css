@@ -44,7 +44,7 @@ h2 {
 }
 .menu {
 	display: flex;
-	width: 547px;
+	min-width: 547px;
 	flex-wrap: wrap;
 }
 .menu a {
