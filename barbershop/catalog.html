@@ -5,35 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header class="main-header">	
-		<div class="container clearfix">
-			<nav class="main-navigation">
-				<ul>
-					<li>
-						<a href="#">Главная</a>
-					</li>
-					<li>
-						<a href="#">Инфромация</a>
-					</li>
-					<li>
-						<a href="#">Новости</a>
-					</li>
-					<li>
-						<a href="#">Прайс-лист</a>
-					</li>
-					<li>
-						<a href="#">Магазин</a>
-					</li>
-					<li class="active">
-						<a href="#">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="user-block">
-				<a href="#" class="login">Вход</a>
-			</div>
-		</div>
-	</header>
+	<header class="main-header">
+        <div class="header-menu-items">
+          <nav class="menu">
+            <a href="#">Информация</a>
+            <a href="#">Новости</a>
+            <a href="#">Прайс-лист</a>
+            <a href="catalog.html">Магазин</a>
+            <a href="#">Контакты</a>
+          </nav>
+          <div class="user-block">
+            <a href="#">
+              <img src="img/icons/icon-login.png" alt="login">
+              <span>Вход</span>
+            </a>
+          </div>
+        </div>
+    </header>
 
 	<main class="container clearfix">
 		<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
@@ -191,5 +179,6 @@
 			</section>
 		</div>
 	</footer>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
