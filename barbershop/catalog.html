@@ -26,7 +26,7 @@
     </header>
 
 	<main class="main-catalog">
-		<div class="top">	
+		<div class="top centerrr">	
 			<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
 			<nav class="breadcrumbs">
 				<ul>
@@ -44,7 +44,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="middle">
+		<div class="middle centerrr">
 			<section class="sidebar">
 				<form method="post">
 					<div class="manufacturers">
@@ -82,13 +82,24 @@
 					</div>
 				
 					<div class="groups">
-						<input type="radio" name="groups-items" id="choice-1" value="things" checked>
-						<label for="choice-1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
-						<input type="radio" name="groups-items" id="choice-2" value="attention">
-						<label for="choice-2">СРЕДСТВА ДЛЯ УХОДА</label>
-						<input type="radio" name="groups-items" id="choice-3" value="accessories">
-						<label for="choice-3">АКСЕССУАРЫ</label>
+						<h2>Группы товаров:</h2>
+						<div class="radio-turn">	
+							<input type="radio" name="groups-items" id="choice-1" value="things" checked>
+							<div class="point"></div>
+							<label for="choice-1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+						</div>
+						<div class="radio-turn">	
+							<input type="radio" name="groups-items" id="choice-2" value="attention">
+							<div class="point"></div>
+							<label for="choice-2">СРЕДСТВА ДЛЯ УХОДА</label>
+						</div>
+						<div class="radio-turn">
+							<input type="radio" name="groups-items" id="choice-3" value="accessories">
+							<div class="point"></div>
+							<label for="choice-3">АКСЕССУАРЫ</label>
+						</div>
 					</div>
+					<input type="submit" value="ПОКАЗАТЬ" class="btn">
 				</form>
 			</section>
 			<section class="catalog-items">
@@ -169,25 +180,26 @@
 	</main>
 
 	<footer class="main-footer">
-		<div class="container clearfix">
-			<section class="contacts">
-	          Барбершоп «Бородинский»<br>
-	          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-	          <a href="#">Как нас найти?</a><br>
-	          телефон: +7 (495) 666-02-66
-			</section>
-			<section class="social">
-	          <p>Давайте дружить!</p>
-	          <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
-	          <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
-	          <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
-			</section>
-			<section class="copyright">
-			  <p>Дизайн сайта:</p>
-	          <a href="#" class="btn">htmlacademy.ru</a>
-			</section>
-		</div>
-	</footer>
+      <div class="footer-block">
+        <div class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          телефон: +7 (495) 666-02-66
+        </div>
+        <div class="footer-social">
+          <p>Давайте дружить!</p>
+          <a href="#" class="social-btn social-btn-vk"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+          <a href="#" class="social-btn social-btn-fb"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          <a href="#" class="social-btn social-btn-inst"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-copyright">
+          <p>Дизайн сайта:</p>
+          <a href="#" class="btn">htmlacademy.ru</a>
+        </div>
+      </div>
+    </footer>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="https://use.fontawesome.com/bf60d43b33.js"></script>
 </body>
 </html>

@@ -8,15 +8,17 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 	text-transform: uppercase;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	color: white;
 }
 
 h2 {
 	font-size: 30px;
 	line-height: 42px;
+}
+
+.centerrr {
+	width: 940px;
+	margin: 0 auto;
 }
 
 .main-index {
@@ -130,12 +132,10 @@ h2 {
 	background-color: #f7f4f1;
 	color: #000;
 }
-.top {
-	margin-left: 130px;
-}
+
 .middle {
-	margin-left: 130px;
-	margin-top: 47px;
+	display: flex;
+	justify-content: space-between;
 }
 .main-catalog h1 {
 	font-size: 30px;
@@ -460,11 +460,91 @@ input[type="checkbox"]:checked + .close:after {
 	display: block;
 }
 
-.manufacturers h2 {
+.top {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.sidebar {
+	display: flex;
+	width: 170px;
+}
+.sidebar h2 {
 	line-height: 30px;
 	font-size: 24px;
 	margin-bottom: 30px;
+	margin-top: 47px;
 }
+
+.catalog-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 710px;
+}
+
+input[type="radio"] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.radio-turn {
+	position: relative;
+	margin-bottom: 19px;	
+	font-size: 14px;
+	line-height: 18px;
+}
+.radio-turn:last-child {
+	margin-bottom: 0;
+}
+
+.point {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background: rgba(255,255,255,0);
+}
+.point + label {
+	display: inline-block;
+	position: relative;
+	padding-left: 43px;
+	cursor: pointer;
+}
+.point:before {
+	position: absolute;
+	display: none;
+	content: '';
+	background: #000;
+	height: 8px;
+	width: 8px;
+	border-radius: 4px;
+	left: 4px;
+	top: 4px;
+}
+
+input[type="radio"]:checked + .point:before {
+	display: block;
+}
+
+input[type="submit"] {
+	font-family: 'PT Sans Narrow', sans-serif;
+	border: none;
+	cursor: pointer;
+	padding: 13px 29px;
+	margin-top: 52px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
