@@ -126,7 +126,8 @@ h2 {
 	margin-bottom: 80px;
 }
 .main-catalog,
-.main-item {
+.main-item,
+.main-price {
 	min-height: 912px;
 	min-width: 100%;
 	padding-top: 50px;
@@ -613,7 +614,8 @@ input[type="submit"] {
 	background: #fff;
 	color: #000;
 }
-.main-item h1 {
+.main-item h1,
+.main-price h1 {
 	font-size: 30px;
 	line-height: 42px;
 }
@@ -621,6 +623,10 @@ input[type="submit"] {
 	font-size: 24px;
 	line-height: 30px;
 	padding: 27px 0;
+}
+.main-price h2 {
+	font-size: 48px;
+	line-height: 48px;
 }
 .middle-item {
 	display: flex;
@@ -641,6 +647,9 @@ input[type="submit"] {
 }
 .description-text .price-btn {
 	padding: 36px 0;
+	line-height: 18px;
+	width: 187px;
+	display: flex;
 }
 .pres-art {
 	display: flex;
@@ -648,6 +657,7 @@ input[type="submit"] {
 	padding-top: 19px;
 	padding-bottom: 27px;
 }
+
 .consist ul {
 	list-style-type: none;
 }
@@ -657,8 +667,18 @@ input[type="submit"] {
 .consist .romb {
 	margin: 8px 10px 8px 0;
 }
-
-
+.title-price {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+	margin-bottom: 64px;
+}
+.title-price .before,
+.title-price .after {
+	width: 160px;
+	height: 24px;
+	border-bottom: 2px solid #000;
+}
 
 
 
