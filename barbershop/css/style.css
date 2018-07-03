@@ -418,6 +418,18 @@ h2 {
 	margin-bottom: 25px;
 	margin-left: 30px;
 }
+.sidebar label:hover,
+input:checked + div + label
+ {
+	color: rgb(102,61,21);
+}
+input:disabled  {
+	color: #b1afac
+}
+.btn:hover,
+.nav-list:hover:not(.here) {
+	background-color: rgb(102,61,21);
+}
 
 input[type="checkbox"] {
 	position: absolute;
@@ -425,6 +437,10 @@ input[type="checkbox"] {
 	opacity: 0;
 }
 
+input[type="text"]:focus {
+	outline: none;
+	border-color: rgb(102,61,21);
+}
 .turn {
 	position: relative;
 	margin-bottom: 19px;	
