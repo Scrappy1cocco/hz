@@ -4,36 +4,53 @@
 	<meta charset="utf-8">
 	<title>Nerds</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
-		<div class="container">
-			<a class="logo" href="#"><img src="http://placehold.it/100x50" width="100" height="50" alt="Nerds"></a>
-		</div>
-		<ul>
-			<li><a href="#">Студия</a></li>
-			<li><a href="#">Клиенты</a></li>
-			<li><a href="#">Магазин</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul>
-		<div class="buy-block">
-			<a href="#" class="buy">Корзина</a>
-		</div>
-	</header>
-	<main class="container">
-		<div class="slide">
+		<div class="header-top container">
+			<a class="logo" href="#"><img src="nerds-img/content/nerds-logo.png" alt="Nerds"></a>
+			<ul class="header-menu">
+				<li><a href="#">Студия</a></li>
+				<li><a href="#">Клиенты</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<div class="buy-block">
+				<a href="#" class="buy">Корзина</a>
+			</div>
+		</div>	
+		<div class="slide container">
 			<div class="slide-left">
 				<h1>Долго, дорого, скрупулезно.</h1>
-				<p class="slide-text">Математически выверенный дизайн</p>
+				<p class="slide-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
 				<a href="#" class="btn">Узнать больше</a>
 			</div>
 			<div class="slide-right">
 				<img src="http://placehold.it/150x100" width="150" height="100" alt="Картиночка">
 			</div>
+			<!--<div class="slide-left">
+				<h1>Любим математику как никто другой</h1>
+				<p class="slide-text">Никакого креатива, только математические формулы для расчета иделальных пропорций.</p>
+				<a href="#" class="btn">Узнать больше</a>
+	СЛАЙД -></div>
+			<div class="slide-right">
+				<img src="http://placehold.it/150x100" width="150" height="100" alt="Картиночка">
+			</div>
+			<div class="slide-left">
+				<h1>Только ночь, только хардкор</h1>
+				<p class="slide-text">Работать днем, как все? Мы против этого. Ближе к полуночи робота только начинается.</p>
+				<a href="#" class="btn">Узнать больше</a>
+			</div>
+			<div class="slide-right">
+				<img src="http://placehold.it/150x100" width="150" height="100" alt="Картиночка">
+			</div>-->
 		</div>
+	</header>
+	<main class="main-index container">
 		<div class="products">
 			<div class="product-item">
-				<img src="nerds-img/img/content/illustration-1.jpg" alt="Веб-сайты">
+				<img src="nerds-img/content/illustration-1.jpg" alt="Веб-сайты">
 				<h3>Веб-сайты</h3>
 				<p class="text-item">
 					Мир никогда не будет прежним после того как увидит ваш сайт!
@@ -41,7 +58,7 @@
 				<a href="#" class="btn">Заказать</a>
 			</div>
 			<div class="product-item">
-				<img src="nerds-img/img/content/illustration-2.jpg" alt="Веб-сайты">
+				<img src="nerds-img/content/illustration-2.jpg" alt="Приложения">
 				<h3>Приложения</h3>
 				<p class="text-item">
 					Покорите топ-10 приложений в AppStore и Google Play
@@ -49,7 +66,7 @@
 				<a href="#" class="btn">Заказать</a>
 			</div>
 			<div class="product-item">
-				<img src="nerds-img/img/content/illustration-3.jpg" alt="Веб-сайты">
+				<img src="nerds-img/content/illustration-3.jpg" alt="Презентации">
 				<h3>Презентации</h3>
 				<p class="text-item">
 					Вы даже не представляете, насколько вы изумительны!
@@ -57,6 +74,7 @@
 				<a href="#" class="btn">Заказать</a>
 			</div>
 		</div>
+		<hr>
 		<div class="about">
 			<div class="about-left">
 				<span class="about-title">Мы - маленькая, но гордая дизайн студия из Краснодара</span>
@@ -81,7 +99,7 @@
 				</div>
 				<div class="about-item">
 					<span class="percent">50<sup>%</sup></span>
-					<span class="percent-text">Минимальная предоплата<span>
+					<span class="percent-text">Минимальная предоплата</span>
 				</div>
 			</div>
 		</div>
@@ -94,7 +112,7 @@
 			</ul>
 		</div>
 		<div class="map">
-			<div class="map-info">
+			<!--<div class="map-info">
 				<span class="map-info-title">NЁRDS DESIGN STUDIO</span>
 				<p class="map-info-text">
 					191186, Санкт-Петербург, <br>
@@ -104,10 +122,10 @@
 					тел. +7 (812) 275-75-75
 				</p>
 				<a href="#" class="btn">Напишите нам</a>
-			</div>
+			</div>-->
 		</div>
 	</main>
-	<footer class="main-footer">
+	<footer class="main-footer container">
 		<div class="social">
 			<a href="#" class="btn-social">Вконтакте</a>
 			<a href="#" class="btn-social">Фейсбук</a>
@@ -118,5 +136,6 @@
 			<span class="footer-text">Скидка 10% для друзей из социальных сетей.</span>
 		</div>
 	</footer>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
