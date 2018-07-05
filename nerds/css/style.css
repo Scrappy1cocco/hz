@@ -24,7 +24,10 @@ h1 {
 .products,
 .about,
 .partners-list,
-.main-footer {
+.main-footer,
+.slide-1,
+.slide-2,
+.slide-3 {
 	display: flex;
 	justify-content: space-between;
 }
@@ -33,24 +36,124 @@ h1 {
 	padding-top: 50px;
 	height: 545px;
 	background-color: #eeeeee;
+	box-sizing: border-box;
 }
 .header-top {
-	min-height: 70px;
+	height: 70px;
+}
+.header-top .logo {
+	margin-right: 10px;
+}
+.header-top .logo:hover {
+	opacity: .75;
+}
+.header-top .logo:active {
+	opacity: .3;
 }
 .header-menu {
 	width: 480px;
 	list-style-type: none;
+	justify-content: space-around;
+	box-sizing: border-box;
 }
 .header-menu li,
 .buy-block {
 	display: flex;
 	align-items: center;
+	margin-top: 10px;
 }
 .header-menu li a,
 .buy {
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 60px;
 	text-transform: uppercase;
 	color: #000;
 	text-decoration: none;
+	font-weight: 500;
+	padding: 0 25px;
+}
+.header-menu li a:hover,
+.buy:hover span {
+	color: rgb(251,86,90);
+}
+.header-menu li a:active,
+.buy:active span {
+	color: #000;
+	opacity: .3;
+}
+.buy-block i {
+	opacity: .3;
+}
+.buy-block span {
+	margin-left: 25px;
+}
+.active {
+	margin-top: 2px;
+}
+.active:after {
+	position: relative;
+	top: -12px;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fb5559;
+}
+
+.slide-left h1 {
+	margin-top: 77px;
+	margin-bottom: 30px;
+}
+.slide-left p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 55px;
+}
+.slide-1 .slide-left {
+	width: 380px;
+}
+.slide-2 .slide-left h1 {
+	position: absolute;
+	width: 600px;
+}
+.slide-2 .slide-left p {
+	margin-top: 217px;
+	width: 500px;
+}
+.slide-3 .slide-left h1 {
+	position: absolute;
+	width: 500px;
+}
+.slide-3 .slide-left p {
+	margin-top: 217px;
+	width: 396px;
+}
+.slide-left .btn {
+	width: 240px;
+	height: 50px;
+	padding: 15px 55px;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #fb5559;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+}
+.slide-left .btn:hover {
+	background-color: #e74246;
+}
+.slide-left .btn:active {
+	box-shadow: inset 0 3px rgba(0,0,0, .1);
+	background-color: #d7363a;
+	color: #e26f72;
+}
+.slide-1 .slide-right {
+	margin-top: 11px;
+}
+.slide-2 .slide-right {
+	margin-top: -5px;
+}
+.slide-3 .slide-right {
+	margin-top: 13px;
 }
