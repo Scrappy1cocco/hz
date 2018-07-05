@@ -1,3 +1,4 @@
-$('.owl-carousel').owlCarousel({    
+$('.owl-carousel').owlCarousel({
+    loop:false,    
     items:1   
 })

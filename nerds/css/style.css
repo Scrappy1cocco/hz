@@ -31,7 +31,9 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 }
-
+.slide {
+	width: 1160px;
+}
 .main-header {
 	padding-top: 50px;
 	height: 545px;
