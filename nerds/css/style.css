@@ -87,10 +87,10 @@ h1 {
 .buy-block span {
 	margin-left: 25px;
 }
-.active {
+.header-menu .active {
 	margin-top: 2px;
 }
-.active:after {
+.header-menu .active:after {
 	position: relative;
 	top: -12px;
 	content: '';
