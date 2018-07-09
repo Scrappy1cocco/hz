@@ -18,22 +18,12 @@ h1 {
 	margin: 0 auto;
 }
 
-.header-top,
-.header-menu,
-.slide,
-.products,
-.about,
-.partners-list,
-.main-footer,
-.slide-1,
-.slide-2,
-.slide-3 {
+
+.flex_it {
 	display: flex;
 	justify-content: space-between;
 }
-.container .owl-dots {
-	margin-top: -100px !important;
-}
+
 .main-header {
 	padding-top: 50px;
 	height: 545px;
@@ -369,4 +359,46 @@ h1 {
 }
 .map {
 	margin-top: 300px;
+}
+
+.main-footer .social {
+	width: 260px;
+	padding: 70px 0;
+}
+.social .btn-social {
+	background-color: #e1e1e1;
+	border-radius: 40px;
+	color: #fff;
+}
+.social .btn-social:hover {
+	background-color: #e74246;
+}
+.social .btn-social:active {
+	background-color: #d7363a;
+	color: #e37375;
+}
+.social .btn-vk {
+	padding: 29px 28px;
+}
+.social .btn-fb {
+	padding: 29px 32px;
+}
+.social .btn-inst {
+	padding: 29px 29px;
+}
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 200px;
+}
+.footer-right .footer-title {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: bold;
+}
+.footer-right .footer-text {
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 22px;
 }
