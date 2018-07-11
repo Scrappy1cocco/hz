@@ -142,8 +142,29 @@
 				<p class="map-info-text">
 					тел. +7 (812) 275-75-75
 				</p>
-				<a href="#" class="btn">Напишите нам</a>
+				<a href="#openWindow" class="btn">Напишите нам</a>
 			</div>
+		</div>
+		<div id="openWindow" class="write-us"">	
+			<a href="#close" title="Закрыть" class="close"><div class="close-block"></div></a>
+			<h2>Напишите нам</h2>
+			<form class="flex_it">
+				<div class="name-mail flex_it">
+					<div class="form-name flex_it">
+						<label for="name">Ваше имя:</label>
+						<input type="text" id="name" placeholder="Представьтесь, пожалуйста">
+					</div>
+					<div class="form-mail flex_it">
+						<label for="e-mail">Ваш e-mail:</label>
+						<input type="text" id="e-mail" placeholder="Для отправки ответа">
+					</div>
+				</div>
+				<div class="write-us-text flex_it">
+					<label for="textarea">Текст письма:</label>
+					<textarea id="textarea" rows="7" cols="50" placeholder="В свободной форме"></textarea>
+				</div>
+				<input type="submit" value="Отправить" class="btn">
+			</form> 
 		</div>
 	</main>
 	<footer class="main-footer container flex_it">
