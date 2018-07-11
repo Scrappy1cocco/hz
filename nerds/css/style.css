@@ -500,6 +500,22 @@ input[type="text"] {
 	border: 2px solid #d7dbdd;
 	border-radius: 3px;
 }
+input[type="text"]:hover,
+textarea:hover {
+	border: 2px solid #b3b8bb;
+}
+
+input[type="text"]:focus,
+textarea:focus  {
+	outline: none;
+	border: 2px solid black;
+}
+input[type="text"]:invalid {
+	border: 2px solid red;
+	color: red;
+}
+
+
 textarea {
 	padding: 15px;
 	margin-top: 10px;
@@ -507,6 +523,7 @@ textarea {
 	border-radius: 3px;
 	box-sizing: border-box;
 }
+
 .write-us .btn {
 	width: 260px;
 	height: 50px;
@@ -523,6 +540,15 @@ textarea {
 	text-decoration: none;
 	box-sizing: border-box;
  }
+.close-block {
+	opacity: .3;
+}
+.close-block:hover {
+	opacity: 1;
+}
+.close-block:active {
+	opacity: .1;
+}
  .close-block:after,
  .close-block:before {
  	position: absolute;
