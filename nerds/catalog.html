@@ -205,25 +205,9 @@
 			<span class="footer-text">Скидка 10% для друзей из социальных сетей.</span>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script>
-  $( function() {
-    $( "#slider-range" ).slider({
-      range: true,
-      step: 100,
-      min: 0,
-      max: 22000,
-      values: [ 0, 15000 ],
-      slide: function( event, ui ) {
-        $( "#amount" ).val(ui.values[ 0 ] );
-        $( "#amount_2" ).val(ui.values[ 1 ] );
-      }
-    });
-    $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) );
-    $( "#amount_2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
-  } );
-  </script>
+	<script src="js/ui.js"></script>
 	<script src="js/slide.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjCbRJGlWrhKzMNK42F4evSgGYrF3Jdpo&callback=initMap">
