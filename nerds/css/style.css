@@ -493,30 +493,30 @@ h1 {
 	margin-top: 10px;
 	box-sizing: border-box;
 }
-input[type="text"] {
+.write-us input[type="text"] {
 	width: 360px;
 	height: 48px;
 	margin-bottom: 10px;
 	border: 2px solid #d7dbdd;
 	border-radius: 3px;
 }
-input[type="text"]:hover,
-textarea:hover {
+.write-us input[type="text"]:hover,
+.write-us textarea:hover {
 	border: 2px solid #b3b8bb;
 }
 
-input[type="text"]:focus,
-textarea:focus  {
+.write-us input[type="text"]:focus,
+.write-us textarea:focus  {
 	outline: none;
 	border: 2px solid black;
 }
-input[type="text"]:invalid {
+.write-us input[type="text"]:invalid {
 	border: 2px solid red;
 	color: red;
 }
 
 
-textarea {
+.write-us textarea {
 	padding: 15px;
 	margin-top: 10px;
 	border: 2px solid #d7dbdd;
@@ -723,4 +723,62 @@ textarea {
 	display: block;
 	width: 0;
 	height: 0;
+ }
+.cost .block-range {
+	padding-top: 40px;
+	margin-top: 57px;
+	margin-bottom: 14px;
+	height: 80px;
+	width: 260px;
+	background: #ededed;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.cost p {
+	width: 260px;
+	align-items: center;
+}
+.cost input[type="text"] {
+	font-family: 'Roboto', sans-serif;
+	background: #ededed;
+	margin-left: -20px;
+	height: 38px;
+	width: 80px;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	text-align: center;
+}
+ .ui-slider .ui-slider-handle {
+ 	top:-10px;
+ 	border: none;
+ 	border-radius: 10px;
+ 	box-shadow: 0 1px 2px 1px #cccccc;
+ 	outline: none;
+ }
+ .ui-slider .ui-slider-handle:active {
+ 	background: #f6f6f6;
+ }
+ .ui-slider .ui-slider-handle:before {
+ 	position: absolute;
+	top: 8px;
+	left: 8px;
+ 	content: '';
+ 	display: block;
+ 	width: 3px;
+ 	height: 3px;
+ 	border-radius: 2px;
+ 	background: #ababab;
+ }
+ .ui-widget-header {
+ 	background: #00ca74;
+ }
+ .ui-slider-horizontal {
+ 	margin: 0 auto;
+ 	width: 220px;
+ 	height: .1em;
+ 	background: #d7dbdd;
+ }
+ .ui-widget.ui-widget-content {
+ 	border: none;
  }
