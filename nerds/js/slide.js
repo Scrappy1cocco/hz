@@ -1,7 +1,25 @@
-$('.owl-carousel').owlCarousel({
+var main_slider = document.querySelector('.owl-carousel');
+if (main_slider) {
+  $('.owl-carousel').owlCarousel({
     loop:false,    
     items:1   
 })
+}
+$( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      step: 100,
+      min: 0,
+      max: 22000,
+      values: [ 0, 15000 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val(ui.values[ 0 ] );
+        $( "#amount_2" ).val(ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) );
+    $( "#amount_2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
+  } );
 
 function initMap() {
 		  var uluru = {lat: 59.9387, lng: 30.3238};
