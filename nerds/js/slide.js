@@ -19,7 +19,13 @@ $( function() {
     });
     $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) );
     $( "#amount_2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
-  } );
+    
+    var vanPut = document.querySelector("#amount");
+    vanPut.addEventListener('input', function(){
+    	var value = this.value.substring(1);
+	    $("#slider-range").slider("value", parseInt(value));
+    })
+});
 
 function initMap() {
 		  var uluru = {lat: 59.9387, lng: 30.3238};
