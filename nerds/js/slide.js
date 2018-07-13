@@ -23,7 +23,12 @@ $( function() {
     var vanPut = document.querySelector("#amount");
     vanPut.addEventListener('input', function(){
     	var value = this.value.substring(1);
-	    $("#slider-range").slider("value", parseInt(value));
+	    $("#slider-range").slider("values", 0, parseInt(value));
+    })
+    var tuPut = document.querySelector("#amount_2");
+    tuPut.addEventListener('input', function(){
+    	var value = this.value.substring(1);
+	    $("#slider-range").slider("values", 1, parseInt(value));
     })
 });
 
