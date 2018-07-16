@@ -22,13 +22,19 @@ $( function() {
     
     var vanPut = document.querySelector("#amount");
     vanPut.addEventListener('input', function(){
-    	var value = this.value.substring(1);
+    	var value = this.value.substring(0);
+      console.log(parseInt(value));
 	    $("#slider-range").slider("values", 0, parseInt(value));
+      var test = document.querySelector('#slider-range');
+      console.log(test.getAttribute(value));
     })
     var tuPut = document.querySelector("#amount_2");
     tuPut.addEventListener('input', function(){
     	var value = this.value.substring(1);
+      console.log(value);
 	    $("#slider-range").slider("values", 1, parseInt(value));
+      var test = document.querySelector('#slider-range');
+      console.log(test.getAttribute(value));
     })
 });
 

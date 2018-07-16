@@ -49,32 +49,41 @@
 						</div>
 						<div class="turn">
 							<input type="radio" id="val2" name="setka" value="fix">
-							<label for="val2">Фиксированная Резиновая</label>
+							<label for="val2">Фиксированная</label>
+						</div>
+						<div class="turn">
+							<input type="radio" id="val3" name="setka" value="fix" disabled>
+							<label for="val3">Резиновая</label>
 						</div>
 					</div>
 					<div class="features">
 						<span class="it_is">Особенности:</span>
-						<div class="turn">
+						<div class="turn flex_it">
 							<input type="checkbox" id="f1" name="feacha" value="slider" checked>
+							<div class="this"></div>
 							<label for="f1">Слайдер</label>
 						</div>
-						<div class="turn">
+						<div class="turn flex_it">
 							<input type="checkbox" id="f2" name="feacha" value="features">
+							<div class="this"></div>
 							<label for="f2">Блок преимуществ</label>
 						</div>
-						<div class="turn">
+						<div class="turn flex_it">
 							<input type="checkbox" id="f3" name="feacha" value="news" checked>
+							<div class="this"></div>
 							<label for="f3">Новости</label>
 						</div>
-						<div class="turn">
+						<div class="turn flex_it">
 							<input type="checkbox" id="f4" name="feacha" value="gallery">
+							<div class="this"></div>
 							<label for="f4">Галерея</label>
 						</div>
-						<div class="turn">
-							<input type="checkbox" id="f5" name="feacha" value="buy">
+						<div class="turn flex_it">
+							<input type="checkbox" id="f5" name="feacha" value="buy" disabled>
+							<div class="this"></div>
 							<label for="f5">Корзина</label>
 						</div>
-						<input type="submit" name="Показать">
+						<input type="submit" value="Показать">
 					</div>
 				</form>
 			</div>
@@ -156,6 +165,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="navigation flex_it">
+			<a href="#">1</a>
+			<a href="#" class="active">2</a>
+			<a href="#">3</a>
+			<a href="#" class="btn">Следующая</a>
 		</div>
 		<div class="main-location">
 			<div id="map"></div>
